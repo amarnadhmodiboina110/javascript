@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img src="../../img/RRR-Movie-Poster.jpg" alt="" width="100px"> -->
+    <button>click for other page</button>
+ 
+</body>
+
+<script>
+    docget=document.getElementsByTagName("button")
+    docget[0].addEventListener("click",()=>{
+        var a=confirm("do you want to visit other page ")
+        if(a){
+         window.location.assign("bom1.html")
+
+         }
+    })
+
+    // doc=document.getElementsByTagName("button")
+    // doc[1].addEventListener("click",()=>{
+    //      window.location.assign("https://images.pexels.com/photos/19396238/pexels-photo-19396238/free-photo-of-a-person-holding-a-camera-with-a-person-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+
+    // })
+
+
+
+    // docget[1].addEventListener("click",()=>{
+    //     window.history.forward("")
+    // })
+
+
+</script>
+</html>
