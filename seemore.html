@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <img src="" alt="">
+<h1></h1>
+
+
+    <script>
+ var aa=localStorage.getItem("seemore");
+ console.log(aa);
+
+ var parsedval=JSON.parse(aa);
+
+console.log(parsedval);
+let img =document.getElementsByTagName("img");
+img[0].setAttribute("src",parsedval.image)
+img[0].style.width="200px";
+
+
+
+
+
+    </script>
+</body>
+</html>
